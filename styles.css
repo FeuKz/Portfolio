@@ -105,19 +105,35 @@ body{
     top: 3px;
 }
 
-/* Version */
-
-.version {
-    color: white;
-    position: absolute;
-    left: 30px;
-    bottom: 30px;
-    opacity: 0.4;
-}
-
 #main-text{
-    text-align: center;
+    position: relative;
+    bottom: 800%;
+    transform: translateY(-50%);
     color: white;
     font-size: 30px;
-    margin-bottom: 800px;
+}
+
+#about-main{
+    width: 1500px;
+    height: 330px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 96px;
+    color: white;
+    padding-left: 10%;
+}
+#about-Hi{
+    width: 1500px;
+    height: 330px;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+    padding-left: 10%;
+}
+#about-username{
+    width: 1500px;
+    height: 330px;
+    font-weight: 400;
+    font-size: 64px;
+    color: #22AAAE;
 }
