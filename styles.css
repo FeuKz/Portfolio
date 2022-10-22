@@ -1,0 +1,123 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+
+/* Animation on page load */
+
+.input, .input-wrap{
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+/* Research bar */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #030c18;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Navigation Bar*/
+
+*{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height:100vh ;
+}
+.nav{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    width: 230px;
+    border-radius: 10px;
+    box-sizing: initial;
+    border-left: 5px solid #080e16;
+    background-color: #0e1827;
+    transition: 0.5s;
+}
+.nav ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.nav ul li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.nav ul li a{
+    position: relative;
+    display: bock;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+}
+.nav ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 70px;
+    text-align: center;
+}
+.nav ul li a .icon ion-icon{
+    font-size: 1.5em;
+}
+.nav ul li a .title{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: normal;
+}
+
+/* Arrow */
+
+#arrow {
+    position: relative;
+    top: 3px;
+}
+
+/* Version */
+
+.version {
+    color: white;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    opacity: 0.4;
+}
+
+#main-text{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 800px;
+}
