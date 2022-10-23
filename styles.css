@@ -143,3 +143,25 @@ section{
     margin-top: -40%;
     padding-bottom: 100px;
 }
+#blender{
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    bottom: 20%;
+    left:25%;
+}
+#photoshop{
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    bottom: 20%;
+    left:45%;
+    
+}
+#figma{
+    position: absolute;
+    width: 74px;
+    height: 108px;
+    bottom: 20%;
+    left:73%;
+}
