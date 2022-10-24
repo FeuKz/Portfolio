@@ -48,18 +48,18 @@ h1{
    color: white;
 }
 .grille{
-   max-width: 1600px;
+   max-width: 1300px;
    width: 80%;
    height: auto;
    margin: 30px auto;
-   border: 1px solid white;
+   border: 1px solid #030c18;
    display: grid;
    grid-template-columns: repeat(auto-fill,300px);
    justify-content: center;
    grid-gap: 10px;
 }
 .grid-item{
-   width: 300px;
-   height: 200px;
-   background: white;
+   width: 292px;
+   height: 165px;
+   background: #030c18;
 }
