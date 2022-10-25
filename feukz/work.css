@@ -20,8 +20,7 @@ body{
    transition: .2s linear;
    position: relative;
    cursor: pointer;
-   top: 1000%;
-   left: 1%;
+   top: 300%;
 }
 .btn-go-back:hover{
    color: #030c18;
