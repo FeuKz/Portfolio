@@ -62,3 +62,22 @@ h1{
    height: 165px;
    background: #030c18;
 }
+/*scrollbar*/
+::-webkit-scrollbar{
+   background-color: #2f3334;
+   color: #c5beb2;
+   width: 10px;
+}
+::-webkit-scrollbar-thumb{
+   background: #6b7277;
+   border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+   background-color: #6b7277;
+}
+::-webkit-scrollbar-thumb:active{
+   background-color:#5b6164 ;
+}
+::-webkit-scrollbar-corner{
+   background-color: #27292a;
+}
